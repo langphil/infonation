@@ -52,7 +52,6 @@
     "johnpbloch/wordpress": "4.8",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "automattic/jetpack": "^5.0",
     "langphil/js-salient-composer": "dev-master"
   },
   "require-dev": {
