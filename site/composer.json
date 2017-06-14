@@ -40,7 +40,7 @@
         "source": {
           "url": "git@gitlab.com:langphil/js-salient-composer.git",
           "type": "git",
-          "reference": "1.0.4
+          "reference": "1.0.4"
         }
       }
     }
