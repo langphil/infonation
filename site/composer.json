@@ -30,6 +30,19 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "langphil/js-salient-composer",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@gitlab.com:langphil/js-salient-composer.git",
+          "type": "git",
+          "reference": "1.0.4
+        }
+      }
     }
   ],
   "require": {
@@ -39,11 +52,14 @@
     "johnpbloch/wordpress": "4.8",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "automattic/jetpack": "^5.0"
+    "automattic/jetpack": "^5.0",
+    "langphil/js-salient-composer": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "extra": {
     "installer-paths": {
       "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
